@@ -25,7 +25,28 @@ A modern, fast, and user-friendly YouTube video downloader built with Python, us
 
 <img width="463" height="379" alt="gui_main" src="https://github.com/user-attachments/assets/3e8b26f1-cf8c-4c48-92e6-98293f9465e4" />
 
+# 📋 Prerequisites
+To download videos in high resolution (1080p and above) or as MP3s, you must have FFmpeg installed on your system.
+## For Windows Users (Recommended)
+1. Download: Visit the [official FFmpeg builds page](https://www.ffmpeg.org/download.html) and download the ffmpeg-release-essentials.zip.
+2. Extract: Extract the ZIP file to a permanent folder, for example: C:\ffmpeg.
+- **Add to PATH:**
+  - Search for "Edit the system environment variables" in your Start menu.
+  - Click Environment Variables, find the Path variable under "System variables," and click Edit.
+  - Click New and paste the path to your ffmpeg bin folder (e.g., C:\ffmpeg\bin).
+  - Click OK on all windows and restart any open Command Prompts. 
 
+## For macOS Users
+Install easily via Homebrew: 
+```bash
+brew install ffmpeg
+```
+
+## For Linux Users (Ubuntu/Debian)
+Use the apt package manager:
+```bash
+sudo apt update && sudo apt install ffmpeg
+```
 # 📦 Installation
 1. Clone the Repository
 
