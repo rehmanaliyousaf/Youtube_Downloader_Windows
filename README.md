@@ -1,4 +1,4 @@
-# 🎬 YouTube Downloader for Windows
+# 🎬 YouTube Downloader
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![CustomTkinter](https://img.shields.io/badge/GUI-CustomTkinter-orange)
